@@ -1,0 +1,259 @@
+/* ================================================== Start Global ================================================== */
+:root {
+    --main-color: #120702;
+    --main-color-atl: #FFFFFF;
+
+
+    --secondary-color: #DB4444;
+    --secondary-color-alt1: #FEFAF1;
+    --secondary-color-alt2: #F5F5F5;
+
+    --gra-green: #47b486;
+    --gra-red: #DB4444;
+    --gra-red-wight: #EB5757;
+
+    --grey-background: rgb(233, 227, 227);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* ================================================== End Global ================================================== */
+
+
+
+/* ================================================== Start Cart ================================================== */
+
+.viewProduct {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+table,
+th,
+td {
+    height: 50px;
+    background: var(--main-color-atl);    
+}
+
+table {
+    width: 1170px;
+    margin: auto;
+}
+
+tr {
+    text-align: center;
+    box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.05);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+tr img {
+    height: 100px;
+    margin-top: 20px;
+}
+
+th {
+    width: 25%;
+}
+
+td {
+    height: 70px;
+}
+.headviewProduct {
+    margin-bottom: 20px
+}
+.productviewProduct .imgOfProduct {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productviewProduct .imgOfProduct img {
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+}
+
+.productviewProduct .quantityOfProduct .countNum {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 50px;
+    margin: auto;
+    border: 1px solid grey;
+    border-radius: 8px;
+}
+tbody tr td .countNum{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 50px;
+    margin: auto;
+    border: 1px solid grey;
+    border-radius: 8px;
+}
+
+tbody tr td .countNum .quantityBorder{
+    display: flex !important;
+    flex-direction: column !important;
+
+}
+tbody tr td .countNum .quantityBorder button {
+    background-color: var(--main-color-atl);
+    border: 0px solid black;
+    cursor: pointer;
+}
+tbody tr td .countNum .number{
+    margin-right: 10px;
+    display: flex;
+    text-align: center;
+}
+.productviewProduct .quantityOfProduct  .countNum .quantityBorder {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.productviewProduct .quantityOfProduct .countNum .quantityBorder button {
+    background-color: var(--main-color-atl);
+    border: 0px solid black;
+    cursor: pointer;
+}
+
+.productviewProduct .quantityOfProduct .countNum .number {
+    margin-right: 10px;
+    display: flex;
+    text-align: center;
+}
+
+/* =================================================================================== */
+
+.viewProduct .viewProductBtns {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    width: 1170px;
+    height: 50px;
+
+    margin: auto;
+    margin-top: 30px;
+
+    border-radius: 4px;
+    background: var(--main-color-atl);
+
+
+}
+
+.viewProduct .viewProductBtns button {
+    height: 50px;
+    padding: 15px 40px;
+    justify-content: space-between;
+    border-radius: 4px;
+    
+    background-color: var(--main-color-atl);
+    cursor: pointer;
+
+}
+
+.viewProduct .viewProductBtns button a{
+    font-size: 14px;
+    color: var(--main-color);
+    cursor: pointer;
+
+}
+
+.viewProduct .couponProductBtns {
+    width: 1170px;
+    height: 300px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    background: var(--main-color-atl);
+
+
+}
+
+.viewProduct .couponProductBtns button {
+    width: 20%;
+    height: 50px;
+    margin-right: 20px;
+    border: none;
+    background-color: var(--secondary-color);
+    color: var(--main-color-atl);
+    cursor: pointer;
+}
+
+.viewProduct .couponProductBtns input {
+    width: 20%;
+    height: 50px;
+    margin-right: 20px;
+    padding-left: 20px;
+}
+
+
+.viewProduct .couponProductBtns .cartTotal {
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    padding: 20px;
+    margin-left: 180px;
+}
+
+.viewProduct .couponProductBtns .cartTotal .cartTotalSubtotal,
+.cartTotalShipping,
+.cartTotalTotal {
+    margin-top: 20px;
+
+    border-bottom: 1px solid black;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.viewProduct .couponProductBtns .cartTotal #processToCheckout {
+    width: 50%;
+    transform: translate(50%, 50%);
+}
+
+/* ================================================== End Cart  ================================================== */
+
+

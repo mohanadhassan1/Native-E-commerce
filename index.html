@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/product.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <!-- ================================================== HEADER ================================================== -->
+    <div class="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+    <header id="header">
+        <div id="topnavbar">
+            <h3>OFF 50% WHITE FRIDAY<a href="#products">SHOP NOW</a></h3>
+            <div class="dropdown">
+                <button class="dropbtn">English <i class="fa-regular fa-square-caret-down"></i></button>
+
+                <div class="dropdown-content">
+                    <a href="#">Arabic</a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="bottomnavbar">
+                <div id="navLogo">
+                    <h1><a href="index.html">SHOPIFY</a></h1>
+                </div>
+
+                <div id="navLinks">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#footer">Contact</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="register.html">Signup</a></li>
+                    </ul>
+                </div>
+
+                <div id="navIcon">
+                    <div class="search-container">
+                        <form action="#">
+                            <input type="text" placeholder="Search.." name="search">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </form>
+                    </div>
+                    <div class="icon-right-navbar ">
+                        <i class="fa-regular fa-heart shopping"></i>
+                        <div class="cart-count">0</div>
+                        <a href="cart.html"><i class="fa-solid fa-cart-shopping" id="cart-icon"></i></a>
+                        <a href="login.html" id="logoutBtn"> <img id="user" alt="user"> <i
+                                class="fa-solid fa-arrow-right-to-bracket"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="card">
+            <h1>Card</h1>
+            <ul class="listCard">
+            </ul>
+            <div class="checkOut">
+                <div class="total">0</div>
+                <div class="closeShopping">Close</div>
+            </div>
+        </div>
+    </header>
+    <div class="list">
+
+    </div>
+    <!-- ================================================== HEADER ================================================== -->
+
+    <!-- ================================================== Slide 1 ================================================== -->
+
+    <div class="shop">
+        <div class="container">
+            <div class="category">
+                <p>Womans Fashion</p>
+                <p>Mens Fashion</p>
+                <p>Electronics</p>
+                <p>Home & Lifestyle</p>
+                <p>Medicine</p>
+                <p>Sports & Outdoor</p>
+                <p>Babys & toys</p>
+                <p>Groceries & pets</p>
+                <p>Health & Beauty</p>
+            </div>
+            <div class="VerticalLine"></div>
+
+
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <img src="images/slider/1.jpg">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/slider/2.jpg">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/slider/3.jpg">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/slider/4.jpg">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/slider/5.jpg">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/slider/6.jpg">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/slider/8.jpg">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/slider/10.jpg">
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div class="row">
+                    <div class="column">
+                        <img class="demo cursor" src="images/slider/1.jpg" style="width:100px"
+                            onclick="currentSlide(1)">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="images/slider/2.jpg" style="width:100px"
+                            onclick="currentSlide(2)">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="images/slider/3.jpg" style="width:100px"
+                            onclick="currentSlide(3)">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="images/slider/4.jpg" style="width:100px"
+                            onclick="currentSlide(4)">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="images/slider/5.jpg" style="width:100px"
+                            onclick="currentSlide(5)">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="images/slider/6.jpg" style="width:100px"
+                            onclick="currentSlide(6)">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="images/slider/8.jpg" style="width:100px"
+                            onclick="currentSlide(7)">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="images/slider/10.jpg" style="width:100px"
+                            onclick="currentSlide(8)">
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+    </div>
+    <!-- ================================================== Slide 1 ================================================== -->
+    <!-- ================================================== Our Products ================================================== -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="main-product-title">
+                <h2>Our Products</h2>
+            </div>
+            <div class="product-slider">
+                <div class="title-slide">
+                    <h2>Explore Our Products</h2>
+                </div>
+                <div class="slide-product">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </div>
+            </div>
+            <div class="slider-container">
+                <div class="products-grid js-products-grid" id="productsGrid">
+                </div>
+            </div>
+    </section>
+    <!-- ================================================== Our Products ================================================== -->
+
+    <!-- ================================================== Category ================================================== -->
+
+    <section class="categorys">
+        <div class="container">
+            <div class="main-category-title">
+                <h2>Categories</h2>
+            </div>
+            <div class="category-slider">
+                <div class="title-slide">
+                    <h2>Browser By Category</h2>
+                </div>
+                <div class="slide-category">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </div>
+            </div>
+            <div class="main-cato">
+                <div class="category js-Category-grid">
+                    <div class="categories">
+                        <div class="category-img-box">
+                            <i class="fa-solid fa-camera"></i>
+                            <span class="category-tooltip">Camera</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="category js-Category-grid">
+                    <div class="categories">
+                        <div class="category-img-box">
+                            <i class="fa-solid fa-headphones-simple"></i>
+                            <span class="category-tooltip">HeadPhones</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="category js-Category-grid">
+                    <div class="categories">
+                        <div class="category-img-box">
+                            <i class="fa-solid fa-mobile-screen"></i>
+                            <span class="category-tooltip">Phones</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="category js-Category-grid">
+                    <div class="categories">
+                        <div class="category-img-box">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span class="category-tooltip">Gaming</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="category js-Category-grid">
+                    <div class="categories">
+                        <div class="category-img-box">
+                            <i class="fa-solid fa-laptop"></i>
+                            <span class="category-tooltip">Laptop</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="category js-Category-grid">
+                    <div class="categories">
+                        <div class="category-img-box">
+                            <i class="fa-solid fa-shirt"></i>
+                            <span class="category-tooltip">Shirt</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- ==================================================Category================================================== -->
+    <!-- ================================================== Count down ================================================== -->
+    <section class="eventSection">
+        <div class="container">
+            <div class="countDown">
+                <div class="block">
+                    <span class="value days"></span>
+                    <span class="label">Days</span>
+                </div>
+                <div class="block">
+                    <span class="value hours"></span>
+                    <span class="label">Hours</span>
+                </div>
+                <div class="block">
+                    <span class="value minutes"></span>
+                    <span class="label">Minutes</span>
+                </div>
+                <div class="block">
+                    <span class="value seconds"></span>
+                    <span class="label">Seconds</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================================================== Count down ================================================== -->
+    <!-- ================================================== FOOTER ================================================== -->
+
+    <footer id="footer">
+        <div class="container">
+            <div class="info">
+                <div>
+                    <h1>Shopify</h1>
+                    <p>Subscribe</p>
+                    <p>Get 10% off your first order</p>
+                </div>
+                <div>
+                    <h2>Support</h2>
+                    <p>SVU university ITI</p>
+                    <p>Shopify@gmail.com</p>
+                    <p>+201005758547</p>
+                </div>
+                <div>
+                    <h2>Account</h2>
+                    <p>My Account</p>
+                    <p>Login/Register</p>
+                    <p>Cart</p>
+                    <p>Wishlist</p>
+                    <p>Shop</p>
+                </div>
+                <div>
+                    <h2>Quick Link</h2>
+                    <p>Pivacy Policy</p>
+                    <p>Terms Of Use</p>
+                    <p>FAQ</p>
+                    <p>Content</p>
+                </div>
+                <div class="social-footer">
+                    <i class="fa-brands fa-facebook fa-bounce"></i>
+                    <i class="fa-brands fa-twitter fa-bounce"></i>
+                    <i class="fa-brands fa-instagram fa-bounce"></i>
+                </div>
+            </div>
+            <div class="copyright">
+                Copyright ©
+                <h4>Shopify</h4>
+                2023
+            </div>
+        </div>
+    </footer>
+
+    <!-- ================================================== FOOTER ================================================== -->
+
+    <script src="/scritps/script.js"></script>
+    <script src="/scritps/search.js"></script>
+</body>
+
+</html>

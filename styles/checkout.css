@@ -1,0 +1,149 @@
+/* ================================================== Start Global ================================================== */
+:root {
+  --main-color: #120702;
+  --main-color-atl: #ffffff;
+
+  --secondary-color: #db4444;
+  --secondary-color-alt1: #fefaf1;
+  --secondary-color-alt2: #f5f5f5;
+
+  --gra-green: #47b486;
+  --gra-red: #db4444;
+  --gra-red-wight: #eb5757;
+
+  --grey-background: rgb(233, 227, 227);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+/* ================================================== End Global ================================================== */
+
+/* checkout */
+.checkout {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.checkout .container .return {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  height: 50px;
+  border: 1px solid var(--secondary-color-alt2);
+  width: 1451px;
+  padding: 50px;
+  border-radius: 10px;
+}
+.checkout .container .return p {
+  font-size: 18px;
+  color: #7a7a7a;
+}
+.checkout .container .return p a {
+  font-size: 18px;
+  color: var(--gra-red-wight);
+}
+.checkout .mid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.checkout .mid .billing {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 862px;
+  padding: 20px;
+  border: 1px solid #bdbdbd;
+  margin-left: 50px;
+  border-radius: 10px;
+}
+.checkout .mid .billing form {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.checkout .mid .billing form label {
+  margin-bottom: 10px;
+}
+.checkout .mid .billing form select {
+  width: 100%;
+  height: 233px;
+  border: 1px solid #e4e4e4;
+  outline: none;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.checkout .mid .billing form input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #e4e4e4;
+  outline: none;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  outline: none;
+}
+.checkout .mid .billing form textarea {
+  padding: 20px;
+  text-align: start;
+}
+.checkout .mid .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35%;
+  height: 50px;
+  border-radius: 8px;
+  font-size: 18px;
+  background-color: var(--secondary-color);
+  color: var(--main-color-atl);
+  border: none;
+  cursor: pointer;
+  margin-top: 50px;
+}
+.checkout .info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* checkout */

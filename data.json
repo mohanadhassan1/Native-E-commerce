@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "elzaw",
+    "email": "badawy@gmail.com",
+    "password": "Asd_12345",
+    "profilePicture": "images/badawy.png"
+  },
+  {
+    "id": 2,
+    "name": "abdelrady",
+    "email": "rady@gmail.com",
+    "password": "Asd_12345",
+    "profilePicture": "images/abdelrady.png"
+  },
+  {
+    "id": 3,
+    "name": "mohanad",
+    "email": "mohanad@gmail.com",
+    "password": "Asd_12345",
+    "profilePicture": "images/mohaned.png"
+  },
+  {
+    "id": 4,
+    "name": "caroline",
+    "email": "caroline@gmail.com",
+    "password": "Asd_12345",
+    "profilePicture": "images/caroline.jpeg"
+  }
+]
